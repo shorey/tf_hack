@@ -4,8 +4,8 @@ from sklearn.model_selection import train_test_split
 
 csv_columns_names = ['Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare']
 label = [0, 1]
-train_file = 'train.csv'
-test_file = 'test.csv'
+train_file = 'titanic/train.csv'
+test_file = 'titanic/test.csv'
 
 
 def load_data(label ='Survived'):
